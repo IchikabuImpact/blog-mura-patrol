@@ -1,0 +1,56 @@
+# === Java ビルド成果物 ===
+/bin/
+/target/
+/out/
+
+# === Eclipse 専用設定ファイル（チームで共有しないなら） ===
+*.classpath
+*.project
+/.settings/
+
+# === 実行時に生成されるファイル ===
+*.log
+*.tmp
+*.bak
+*.swp
+
+# === OS/エディタ固有 ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === VSCode 等 他IDEが作るもの ===
+.vscode/
+.idea/
+*.iml
+
+# === Jarファイルや依存 ===
+/lib/*.jar
+
+# === ChromeDriver等の実行ファイル ===
+/exe/
+chromedriver.exe
+
+# === テスト用の個人情報ファイル ===
+email.txt
+password.txt
+url.txt
+
+# === クラスファイルの直置き対応（万一）===
+*.class
+
+# === Javaで作業中のファイル ===
+*.orig
+*.rej
+
+# === Gradle ビルド & 設定 ===
+.gradle/
+**/build/
+gradle-app.setting
+gradlew
+gradlew.bat
+gradle/
+
+# === テストレポートなど ===
+test-results/
+reports/
