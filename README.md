@@ -52,6 +52,7 @@ gradle run
 bash
 コピーする
 編集する
+```
 blog-mura-patrol/
 ├── app/                  # Gradleアプリ用ディレクトリ（初期テンプレート）
 ├── src/                  # Main.java が含まれるディレクトリ
@@ -63,6 +64,7 @@ blog-mura-patrol/
 ├── build.gradle.kts      # Gradleビルド定義（Kotlin DSL）
 ├── settings.gradle.kts
 └── README.md             # このファイル
+```
 ⚠️ 注意事項
 email.txt, password.txt, url.txt など個人情報を含むファイルはGitにコミットしないでください。
 
